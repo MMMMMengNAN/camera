@@ -26,6 +26,8 @@ int main()
 
     //计算相机在世界坐标中的位置
     cam.pos_in_world();
+
+
     cout<<"cam position in world is:\n"<<'('<<cam.p_w[0]<<','
         <<cam.p_w[1]<<','<<cam.p_w[2]<<')'<<endl;
     cout<<"result should be:\n -0.0948544 -0.935689 0.0943652\n\n"<<endl;
@@ -35,7 +37,6 @@ int main()
     cout<<"cam direction in world is:\n"<<'('<<cam.dir_[0]<<','
         <<cam.dir_[1]<<','<<cam.dir_[2]<<')'<<endl;
     cout<<"result should be:\n -0.0155846 0.00757181 0.999854\n"<<endl;
-    cout<<"新加了一行，看一下git"<<endl;
-    cout<<"为什么上一行没有变化？"<<endl;
+
     cin.get();
 }
