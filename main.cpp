@@ -35,6 +35,7 @@ int main()
     cout<<"cam direction in world is:\n"<<'('<<cam.dir_[0]<<','
         <<cam.dir_[1]<<','<<cam.dir_[2]<<')'<<endl;
     cout<<"result should be:\n -0.0155846 0.00757181 0.999854\n"<<endl;
-     cout<<"新加了一行，看一下git"<<endl;
+    cout<<"新加了一行，看一下git"<<endl;
+    cout<<"为什么上一行没有变化？"<<endl;
     cin.get();
 }
